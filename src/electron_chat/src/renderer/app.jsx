@@ -10,11 +10,13 @@ import firebase from "firebase/firebase-browser";
 
 // Firebaseの初期化
 const config = {
-  apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  authDomain: "electron-chat-yyyyyy.firebaseapp.com",
-  databaseURL: "https://electron-chat-yyyyyy.firebaseio.com",
-  storageBucket: "electron-chat-yyyyyy.appspot.com",
-};
+    apiKey: "AIzaSyB_pgQDdv9ClcsMRtZ_KPBJC_yAWrtcJEM",
+    authDomain: "electron-chat-6a98e.firebaseapp.com",
+    databaseURL: "https://electron-chat-6a98e.firebaseio.com",
+    projectId: "electron-chat-6a98e",
+    storageBucket: "electron-chat-6a98e.appspot.com",
+    messagingSenderId: "638302186839"
+  };
 firebase.initializeApp(config);
 
 // Routingの定義
